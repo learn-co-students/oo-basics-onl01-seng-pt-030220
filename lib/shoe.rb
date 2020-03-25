@@ -1,24 +1,16 @@
 # Make your shoe class here!
 class Shoe
-   attr_accessor :color, :size, :material, :condition
-   attr_reader :brand 
-  
-  BRANDS = []
+  attr_accessor :color, :size, :material, :condition
+  attr_reader :brand
 
   def initialize(brand)
     @brand = brand
-     BRANDS << brand
-     end
+  end
 
-   def cobble
+  def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
-   end
-  
-  def self.unique 
-    BRANDS.uniq!
   end
 
 end
-
 
