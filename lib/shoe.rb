@@ -6,8 +6,8 @@ class Shoe
     @brand = brand
   end
 
-  def cobble
-    puts "Your shoe is as good as new!"
+  def heel
+    puts "Your shoe has been repaired!"
     @condition= "new"
   end
 end
